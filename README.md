@@ -17,6 +17,39 @@ A full-stack MERN application demonstrating authentication, authorization, and r
  Clean Folder Structure
  MongoDB Database Integration.
 
+# Technology Chosen & Why We Chose Them
+>> Frontend – React (Vite)
+
+Fast Development: Vite offers lightning-fast build & reload.
+
+Component Architecture: Helps us create modular UI (Login, Register, Dashboards).
+
+Easy API Integration: Axios + React hooks make API calls seamless.
+
+Client-side Routing: React Router allows protected + role-based routes.
+
+>> Backend – Node.js + Express
+
+Fast & Scalable: Non-blocking architecture → good for authentication systems.
+
+Easy JWT Integration: Express middleware makes token auth very clean.
+
+Simple Project Structure: Routes, controllers, middleware → readable code.
+
+>> Database – MongoDB (Mongoose)
+
+Flexible Document Model: Easy to store users with dynamic roles.
+
+Schema Validation: Mongoose enforces email format, required fields, & unique fields.
+
+Fast queries: Perfect for authentication and user listing.
+
+>> Security Tools
+
+bcrypt: Strong hashing for passwords.
+
+JWT: Secure token-based authentication with expiry support.
+
  <!-- Tech Stack -->
 Frontend:React (Vite),Axios,React Router DOM
 
@@ -78,9 +111,9 @@ mern_role_auth_final/
 
     <!--  How to Run the Project -->
 
- 1. Clone the project
+1. Clone the project
      git clone https://github.com/ajruddinpw/mern-role-auth.git
-     cd mern_role_auth_final
+     cd mern_role_auth
 
 2. Setup Backend
     cd backend
