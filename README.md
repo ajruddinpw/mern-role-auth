@@ -1,3 +1,4 @@
+ ```bash
  <!-- Role-Based Web Application (Admin, Partner, Customer) -->
 
 A full-stack MERN application demonstrating authentication, authorization, and role-based dashboards as required in the Web Application.
@@ -175,3 +176,5 @@ users
  password: String (hashed)
  role: enum("admin","partner","customer")
  createdAt: Date
+
+```
