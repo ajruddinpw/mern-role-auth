@@ -1,34 +1,4 @@
-// import React from "react";
-
-// export default function Dashboard() {
-//   const role = localStorage.getItem("role");
-//   const name = localStorage.getItem("name");
-
-//   return (
-//     <div className="container">
-//       <h2>Dashboard</h2>
-//       <p>Welcome, {name} — Role: {role}</p>
-
-//       {role === "admin" && (
-//         <a href="/admin/users">Go to Users Management</a>
-//       )}
-
-//       {role === "partner" && (
-//         <>
-//           <h3>Partner Dashboard</h3>
-//           <p>Partner profile and referrals placeholder</p>
-//         </>
-//       )}
-//       {role === "customer" && (
-//         <>
-//           <h3>Customer Dashboard</h3>
-//           <p>Orders placeholder</p>
-//         </>
-//       )}
-//     </div>
-//   );
-// }
-
+ 
 
 
 import React from "react";
