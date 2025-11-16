@@ -1,0 +1,25 @@
+// import React from "react";
+
+// import { Navigate } from "react-router-dom";
+
+// export default function ProtectedRoute({ children }) {
+//   const token = localStorage.getItem("token");
+
+//   return token ? children : <Navigate to="/login" />;
+// }
+
+
+import React from "react";
+import { Navigate } from "react-router-dom";
+
+export default function ProtectedRoute({ children, roles = [] }) {
+  const token = localStorage.getItem("token");
+  const role = localStorage.getItem("role");
+
+  if (!token) return <Navigate to="/login" />;
+
+  if (roles.length && !roles.includes(role))
+    return <Navigate to="/dashboard" />;
+
+  return children;
+}
