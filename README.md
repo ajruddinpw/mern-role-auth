@@ -113,7 +113,7 @@ mern_role_auth_final/
 
 1. Clone the project
      git clone https://github.com/ajruddinpw/mern-role-auth.git
-     cd mern_role_auth
+     cd mern_role_auth_final
 
 2. Setup Backend
     cd backend
