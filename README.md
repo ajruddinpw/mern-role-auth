@@ -23,6 +23,7 @@ Frontend:React (Vite),Axios,React Router DOM
 Backend: Node.js,Express.js, Mongoose, JWT, bcryptjs,dotenv,MongoDB (Local)
 
 <!--------------------------- Project Folder Structure ------------------------------------>
+```bash
 mern_role_auth_final/
 │
 ├── backend/
@@ -74,7 +75,7 @@ mern_role_auth_final/
     ├── index.html
     ├── package.json
     └── package-lock.json
-
+```
     <!--  How to Run the Project -->
 
  1. Clone the project
