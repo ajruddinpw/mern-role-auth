@@ -57,7 +57,7 @@ Backend: Node.js,Express.js, Mongoose, JWT, bcryptjs,dotenv,MongoDB (Local)
 
 <!--------------------------- Project Folder Structure ------------------------------------>
 
-mern_role_auth_final/
+mern_role_auth/
 │
 ├── backend/
 │   ├── config/
@@ -113,7 +113,7 @@ mern_role_auth_final/
 
 1. Clone the project
      git clone https://github.com/ajruddinpw/mern-role-auth.git
-     cd mern_role_auth_final
+     cd mern_role_auth
 
 2. Setup Backend
     cd backend
@@ -125,7 +125,7 @@ cp .env.example .env
 Set values in .env:
 
 PORT=5050
-MONGO_URI=mongodb://127.0.0.1:27017/mern_role_auth_final
+MONGO_URI=mongodb://127.0.0.1:27017/mern_role_auth
 JWT_SECRET=your_strong_secret_key
 JWT_EXPIRES_IN=1h    
 
